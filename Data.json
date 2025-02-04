@@ -1,0 +1,1420 @@
+
+{
+    "intents": [
+        {
+            "tag":"Greetings",
+            "patterns":
+            [
+                "Hello",
+                "Whats your name? "
+            ],
+            "responses":
+            [
+                "Im fine How are you",
+                "My NAmE iS MoE "
+            ]
+        },
+        {
+            "tag": "university_info",
+            "patterns": [
+                "Which university offers the B.Sc. degree in Artificial Intelligence?",
+                "Where is the B.Sc. in AI offered?",
+                "Tell me about the university offering AI degree."
+            ],
+            "responses": [
+                "The B.Sc. degree in Artificial Intelligence is offered at the faculty of Computer and Information Technology at JUST (Jordan University of Science and Technology)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ai_definition",
+            "patterns": [
+                "What is Artificial Intelligence?",
+                "Define AI.",
+                "Explain Artificial Intelligence."
+            ],
+            "responses": [
+                "Artificial Intelligence (AI) refers to the simulation of human intelligence processes by machines, particularly computer systems.\nAI encompasses a range of technologies and techniques that enable machines to analyze data, learn from it, and make informed decisions. It aims to mimic human cognitive functions such as problem-solving, learning, and adaptation.\nSpecific applications of AI include expert systems, natural language processing, speech recognition, and machine vision. These applications contribute to creating systems that can perform tasks that typically require human intelligence."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "award_criteria",
+            "patterns": [
+                "What criteria are followed for awarding the B.Sc. degree in AI?",
+                "How is the B.Sc. in AI awarded?",
+                "Tell me about the criteria for AI degree awarding."
+            ],
+            "responses": [
+                "The B.Sc. degree in Artificial Intelligence at JUST is awarded in accordance with the statute stated by JUST regulations for B.Sc. awarding. This is issued by the Dean’s Council based on the 1987 law for awarding scientific degrees and certifications at JUST."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "credit_hours",
+            "patterns": [
+                "How many credit hours are required for the B.Sc. in AI?",
+                "Tell me about the credit hours for AI degree.",
+                "What's the total credit hours for AI B.Sc.?"
+            ],
+            "responses": [
+                "Students need to successfully complete 132 credit hours to earn the B.Sc. degree in Artificial Intelligence at JUST."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "distribution",
+            "patterns": [
+                "How are the credit hours distributed for the B.Sc. in AI?",
+                "Tell me about the distribution of credit hours for AI degree.",
+                "What are the different categories for credit hours in AI B.Sc.?"
+            ],
+            "responses": [
+                "The credit hours are distributed as indicated in the following table:\nTable (1)\nRequirements             | Mandatory  | Elective | Total\nUniversity Requirements  |      16     |     9    |  25\nFaculty Requirements     |      24     |     0    |  24\nDepartmental Requirements|      74     |     9    |  83\nTotal                    |     114     |    18    | 132"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "department_vision",
+            "patterns": [
+                "What is the vision of the Computer Science department?",
+                "Can you share the department's vision statement?"
+            ],
+            "responses": [
+                "The vision of the Computer Science department is to stay at the top of computer science departments in Jordan and move towards becoming a world-class distinguished department in high-quality teaching and research."
+            ]
+        },
+        {
+            "tag": "department_mission",
+            "patterns": [
+                "What is the mission of the Computer Science department?",
+                "Can you provide information on the department's mission?"
+            ],
+            "responses": [
+                "To realize its mission, the Computer Science department is committed to:\n- Emphasizing high-quality teaching and research, dedication to community services, and partnership with industry.\n- Maintaining high-quality undergraduate and graduate programs that deliver advanced knowledge in computer science while promptly responding to the needs of the local community.\n- Delivering high-quality research, both theoretical and applied, and promoting collaboration with the industry in terms of research and training.\n- Enhancing staff-student relations and mutual understanding to create a pleasant and productive teaching and research environment."
+            ]
+        },
+        {
+            "tag": "ai_program_objectives",
+            "patterns": [
+                "What are the objectives of the B.Sc. in AI program?",
+                "Can you provide information on the objectives of the AI program?"
+            ],
+            "responses": [
+                "The objectives of the B.Sc. in AI program are to produce graduates with the following abilities:\n1. PEO1 (Problem Solving): Gain in-depth knowledge of Computing and Artificial Intelligence principles and techniques and apply them effectively and proficiently to solve real-life problems.\n2. PEO2 (Self-Motivated and Life-Long Learning): Promote sustainable learning by developing transferable skills and knowledge to keep up with the evolving Artificial Intelligence technologies, meet the demands of the rapidly changing labor market, and pursue higher degrees in different subfields of Artificial Intelligence.\n3. PEO3 (Leadership and Teamwork): Improve the ability to work effectively and productively as a leader or a team member toward accomplishing common goals.\n4. PEO4 (Community Support): Maintain strong relationships with the local, regional, and international communities by contributing to economic growth and social development."
+            ]
+        },
+        {
+            "tag": "ai_program_outcomes",
+            "patterns": [
+                "What are the outcomes for graduates of the AI program?",
+                "Can you list the abilities of AI program graduates?"
+            ],
+            "responses": [
+                "Graduates of the AI program will have the ability to:\n1. Analyze a complex computing problem and apply principles of computing and other relevant disciplines to identify solutions.\n2. Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program’s discipline.\n3. Communicate effectively in a variety of professional contexts.\n4. Recognize professional responsibilities and make informed and equitable judgments in computing practice based on legal and ethical principles.\n5. Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline.\n6. Apply computer science and artificial intelligence theory and software development fundamentals to produce computing-based solutions."
+            ]
+        },
+        {
+            "tag": "total_credit_hours",
+            "patterns": [
+                "What is the total number of credit hours for the B.Sc. degree in Artificial Intelligence?",
+                "How many credit hours are required for AI B.Sc.?"
+            ],
+            "responses": [
+                "The total credit hours required for the B.Sc. degree in Artificial Intelligence are 132."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "credit_distribution",
+            "patterns": [
+                "How are the credit hours distributed among University Requirements, Faculty Requirements, and Departmental Requirements?",
+                "Tell me about the distribution of credit hours for the AI B.Sc. program."
+            ],
+            "responses": [
+                "The credit hours are distributed as follows:\n- University Requirements: 25 credit hours (16 Mandatory, 9 Elective).\n- Faculty Requirements: 24 credit hours (24 Mandatory, 0 Elective).\n- Departmental Requirements: 83 credit hours (74 Mandatory, 9 Elective)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "university_classification",
+            "patterns": [
+                "What is the classification of University Requirements for the B.Sc. degree in AI?",
+                "Tell me about the University Requirements classification for AI B.Sc."
+            ],
+            "responses": [
+                "University Requirements for the B.Sc. degree in Artificial Intelligence are classified into Mandatory Courses (16 credit hours) and Elective Courses (9 credit hours)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "credit_allocation",
+            "patterns": [
+                "How many credit hours are allocated to University Mandatory Courses and University Elective Courses?",
+                "Tell me about the credit allocation for University Requirements in AI B.Sc."
+            ],
+            "responses": [
+                "University Mandatory Courses require 16 credit hours, and University Elective Courses require 9 credit hours."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "faculty_total_credit_hours",
+            "patterns": [
+                "What is the total number of credit hours for Faculty Requirements in the AI B.Sc. program?",
+                "How many credit hours are required for Faculty Requirements?"
+            ],
+            "responses": [
+                "Faculty Requirements for the B.Sc. degree in Artificial Intelligence have a total of 24 credit hours (24 Mandatory, 0 Elective)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "faculty_requirements_intent",
+            "patterns": [
+                "What are the Faculty Requirements for the B.Sc. degree in Artificial Intelligence?",
+                "How many credit hours are allocated to Faculty Requirements?",
+                "Tell me about the mandatory Faculty Requirements in Table (2)."
+            ],
+            "responses": [
+                "Faculty Requirements for the B.Sc. degree in Artificial Intelligence have a total of 24 credit hours. They are outlined in Table (2) and include courses such as Calculus I, Calculus II, Discrete Mathematics, Introduction to Programming, Introduction to Information Technology, Introduction to Object-Oriented Programming, Data Structures, and Fundamentals of Database Systems."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "faculty_requirements_details_intent",
+            "patterns": [
+                "Can you provide details on the mandatory Faculty Requirements listed in Table (2)?",
+                "Tell me about the Faculty Requirements courses in Table (2)."
+            ],
+            "responses": [
+                "Certainly, here are the details for the mandatory Faculty Requirements in Table (2):\n- MATH 101: Calculus I (3 credit hours, 3 lecture hours, 0 lab hours, Prerequisite: None)\n- MATH 102: Calculus II (3 credit hours, 3 lecture hours, 0 lab hours, Prerequisite: Passing MATH 101)\n- MATH 241: Discrete Mathematics (3 credit hours, 3 lecture hours, 0 lab hours, Prerequisite: None)\n- CS 101: Introduction to Programming (3 credit hours, 3 lecture hours, 0 lab hours, Prerequisite: CIS 99 or Concurrent)\n- SE 103: Introduction to Information Technology (3 credit hours, 3 lecture hours, 0 lab hours, Concurrent with CS 101)\n- SE 112: Introduction to Object-Oriented Programming (3 credit hours, 3 lecture hours, 0 lab hours, Prerequisite: Passing CS 101)\n- CS 211: Data Structures (3 credit hours, 3 lecture hours, 0 lab hours, Prerequisite: MATH 241 + passing SE 112)\n- CIS 221: Fundamentals of Database Systems (3 credit hours, 3 lecture hours, 0 lab hours, Prerequisite: CS 211)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "faculty_requirements_prerequisites_intent",
+            "patterns": [
+                "What are the prerequisites for each of the mandatory Faculty Requirements courses?",
+                "Tell me about the prerequisites for Faculty Requirements in AI B.Sc."
+            ],
+            "responses": [
+                "The prerequisites for the mandatory Faculty Requirements courses are as follows:\n- MATH 101: None\n- MATH 102: Passing MATH 101\n- MATH 241: None\n- CS 101: CIS 99 or Concurrent\n- SE 103: Concurrent with CS 101\n- SE 112: Passing CS 101\n- CS 211: MATH 241 + passing SE 112\n- CIS 221: CS 211"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "department_mandatory_requirements",
+            "patterns": [
+                "What are the mandatory Department Requirements for the B.Sc. in AI?",
+                "List the Department mandatory courses for AI B.Sc.",
+                "Tell me about the required courses in the Department for AI B.Sc."
+            ],
+            "responses": [
+                "Department mandatory requirements for the B.Sc. degree in Artificial Intelligence total 74 credit hours. They include courses such as Introduction to Artificial Intelligence, Artificial Intelligence Programming, Operating Systems, Big Data Processing, Machine Learning, Deep Learning, Information Retrieval, Digital Image Processing, Smart Systems, Optimization Algorithms, Natural Language Processing, Audio Signal Processing, Computer Vision, Deep Reinforcement Learning, Artificial Intelligence for Games, Extended Reality, Robotics, Internship, Graduation Project (1), Graduation Project (2), Linear Algebra, Analysis and Design of Algorithms, Data Science, Probability & Statistics, Introduction to Web Design, and Communication and Professional Ethics."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "department_course_details",
+            "patterns": [
+                "Can you provide details on the mandatory Department Requirements listed in Table (3)?",
+                "Tell me more about the Department Requirements courses for AI B.Sc.",
+                "Provide information on Department Requirements for the B.Sc. in AI."
+            ],
+            "responses": [
+                "Certainly, here are the details for the mandatory Department Requirements in Table (3):\n- AI 240: Introduction to Artificial Intelligence (3 credit hours, 3 lecture hours, 0 lab hours, Prerequisite: CS 284)\n- AI 244: Artificial Intelligence Programming (3 credit hours, 3 lecture hours, 0 lab hours, Prerequisite: CS 101)\n- CS 375: Operating Systems (3 credit hours, 3 lecture hours, 0 lab hours, Prerequisite: CS 284)\n... (Continue for other courses)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "department_prerequisites",
+            "patterns": [
+                "What are the prerequisites for each of the Department Requirements courses?",
+                "Tell me about the prerequisites for Department courses.",
+                "Provide information on the prerequisites for Department Requirements."
+            ],
+            "responses": [
+                "The prerequisites for the mandatory Department Requirements courses vary. Here are some examples:\n- AI 240: CS 284\n- AI 244: CS 101\n- CS 375: CS 284\n... (Continue for other courses)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "department_elective_requirements",
+            "patterns": [
+                "What are the elective Department Requirements for the B.Sc. in AI?",
+                "List the elective Department courses for AI B.Sc.",
+                "Tell me about the elective courses in the Department for AI B.Sc."
+            ],
+            "responses": [
+                "Department elective requirements for the B.Sc. degree in Artificial Intelligence total 9 credit hours. Students can choose from the following courses, ensuring that at least 3 credit hours are from the Department of Artificial Intelligence:\n- AI 365: Information Security and Privacy\n- AI 421: Cloud Computing\n- AI 442: Artificial Intelligence Planning\n- AI 443: Multi-Agent Systems\n- AI 452: Semantic Web\n- AI 453: Social Networks Analysis\n- AI 454: Business Intelligence\n- AI 455: Pattern Recognition\n- AI 457: Recommender Systems\n- AI 481: Artificial Intelligence for Medicine and Healthcare\n- AI 482: Artificial Intelligence for Computational Biology and Bioinformatics\n- AI 483: Artificial Intelligence for Financial and Industrial Applications\n- AI 484: Fuzzy Logic\n- AI 485: Drones and Autonomous Systems\n- AI 495-I: Special Topics in Artificial Intelligence (1)\n- AI 495-II: Special Topics in Artificial Intelligence (2)\n- AI 495-III: Special Topics in Artificial Intelligence (3)\n- 400-level or higher CIT’s course"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "department_elective_prerequisites",
+            "patterns": [
+                "What are the prerequisites for each of the elective Department Requirements courses?",
+                "Tell me about the prerequisites for elective Department courses.",
+                "Provide information on the prerequisites for Department Elective Requirements."
+            ],
+            "responses": [
+                "The prerequisites for the elective Department Requirements courses vary. Here are some examples:\n- AI 365: AI 240\n- AI 421: AI 328\n- AI 442: AI 380\n- AI 443: AI 471\n- AI 452: CIS 201\n- AI 453: AI 356\n- AI 454: AI 350\n- AI 455: AI 342\n- AI 457: AI 378\n- AI 481: AI 342\n- AI 482: AI 342\n- AI 483: AI 342\n- AI 484: CS 284\n- AI 485: AI 477\n- AI 495-I, II, III: Department Approval\n- 400-level or higher CIT’s course: Department Approval"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "course_numbering_convention",
+            "patterns": [
+                "Can you explain the course numbering convention for the B.Sc. in AI?",
+                "How are the courses numbered for AI B.Sc.?",
+                "Tell me about the course numbering system for AI B.Sc."
+            ],
+            "responses": [
+                "The course numbering convention for the B.Sc. in Artificial Intelligence follows a three-digit format:\n- The hundreds digit represents the course level, where 1 is for the first year, 2 is for the second year, 3 is for the third year, and 4 is for the fourth year.\n- The tens digit represents the course subject. For example, 0 is for Basic Principles, 1 is for Programming, 2 is for Big Data, 3 is for Mathematics and Statistics, 4 is for Learning, 5 is for Applications, 6 is for Security, 7 is for Hardware Components, 8 is for Specialized Topics, and 9 is for Special Topics, Project, and Internship.\n- The ones digit represents the course sequence, indicating the course sequence number within the subject area."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "exemption_criteria",
+            "patterns": [
+                "Under what conditions is a student exempt from studying certain optional courses?",
+                "Explain the exemption criteria for optional courses.",
+                "When is a student exempt from optional courses in AI B.Sc.?"
+            ],
+            "responses": [
+                "A student is exempt from studying 3 credit hours from the optional courses listed in table (4) if they join one of the international academies specialized in offering technical courses or join a technical training course offered in the college. The exemption is granted if the number of training hours exceeds 150 hours, and the student obtains an internationally accredited certificate for that course."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "course_level_explanation",
+            "patterns": [
+                "Can you explain the meaning of the course level in the course numbering convention?",
+                "What does the hundreds digit represent in the course numbering?",
+                "Tell me about the course levels in AI B.Sc."
+            ],
+            "responses": [
+                "In the course numbering convention, the hundreds digit represents the course level. For instance:\n- 100 series: First year\n- 200 series: Second year\n- 300 series: Third year\n- 400 series: Fourth year. Each series corresponds to the respective academic year of study."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "course_subject_explanation",
+            "patterns": [
+                "What does the tens digit represent in the course numbering convention?",
+                "Explain the meaning of the tens digit in course numbering.",
+                "Tell me about the course subjects in AI B.Sc."
+            ],
+            "responses": [
+                "The tens digit in the course numbering convention represents the course subject. For example:\n- 0: Basic Principles\n- 1: Programming\n- 2: Big Data\n- 3: Mathematics and Statistics\n- 4: Learning\n- 5: Applications\n- 6: Security\n- 7: Hardware Components\n- 8: Specialized Topics\n- 9: Special Topics, Project, and Internship. Each digit corresponds to a specific subject area."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "course_sequence_explanation",
+            "patterns": [
+                "What does the ones digit represent in the course numbering convention?",
+                "Explain the meaning of the ones digit in course numbering.",
+                "Tell me about the course sequence numbers in AI B.Sc."
+            ],
+            "responses": [
+                "The ones digit in the course numbering convention represents the course sequence number within the subject area. It indicates the specific sequence of a course within its subject category. For example, if the ones digit is 1, it denotes the first course in that subject area."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "study_plan_1st_year_1st_semester",
+            "patterns": [
+                "What is the recommended study plan for the 1st semester of the 1st year in AI B.Sc.?",
+                "What is the recommended study plan for the first semester of the first year in AI B.Sc.?",
+                "Tell me about the courses in the 1st semester of the 1st year.",
+                "What courses should be taken in the 1st semester of the 1st year?"
+            ],
+            "responses": [
+                "Recommended Study Plan - 1st Year, 1st Semester:\nCS 101: Introduction to Programming (3 CH, Prerequisite: CIS 99 or concurrent)\nCS 101 (Practical): Introduction to Programming (0 CH, Concurrent with CS101)\nSE 103: Introduction to IT (3 CH, Prerequisite: CS 101 or concurrent)\nMath 101: Calculus I (3 CH, No Prerequisite)\nMath 241: Discrete Mathematics (3 CH, No Prerequisite)\nHSS 110: Leader and Social Responsibility (3 CH, No Prerequisite)\nLG 101: Communication Skills in English (3 CH, Prerequisite: Pass LG 099 or passing English exam)\nTotal Credit Hours: 18"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "study_plan_1st_year_2nd_semester",
+            "patterns": [
+                "What is the recommended study plan for the 2nd semester of the 1st year in AI B.Sc.?",
+                " What is the recommended study plan for the second semester of the first year in AI B.Sc.?",
+                "Tell me about the courses in the 2nd semester of the 1st year.",
+                "What courses should be taken in the 2nd semester of the 1st year?"
+            ],
+            "responses": [
+                "Recommended Study Plan - 1st Year, 2nd Semester:\nSE 112: Introduction to Object-Oriented Programming (3 CH, Prerequisite: Passing CS 102)\nSE 112 (Practical): Introduction to Object-Oriented Programming (0 CH, Concurrent with SE 112)\nCS 211: Data Structures (3 CH, Prerequisite: Math 241 and passing SE 112)\nMath 140: Linear Algebra (3 CH, Prerequisite: Math 101)\nMath 102: Calculus 2 (3 CH, Prerequisite: Math 101)\nCIS 203: Communication and Professional Ethics (2 CH, No Prerequisite)\nTotal Credit Hours: 14"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "prerequisites_1st_year_1st_semester",
+            "patterns": [
+                "What are the prerequisites for each course in the 1st semester of the 1st year?",
+                "Tell me about the prerequisites for 1st year 1st semester courses.",
+                "What do I need to take before each course in the 1st semester of the 1st year?"
+            ],
+            "responses": [
+                "Prerequisites for 1st Year, 1st Semester Courses:\n- CS 101: Introduction to Programming (Prerequisite: CIS 99 or concurrent)\n- SE 103: Introduction to IT (Prerequisite: CS 101 or concurrent)\n- Math 101: Calculus I (No Prerequisite)\n- Math 241: Discrete Mathematics (No Prerequisite)\n- HSS 110: Leader and Social Responsibility (No Prerequisite)\n- LG 101: Communication Skills in English (Prerequisite: Pass LG 099 or passing English exam)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "prerequisites_1st_year_2nd_semester",
+            "patterns": [
+                "What are the prerequisites for each course in the 2nd semester of the 1st year?",
+                "Tell me about the prerequisites for 1st year 2nd semester courses.",
+                "What do I need to take before each course in the 2nd semester of the 1st year?"
+            ],
+            "responses": [
+                "Prerequisites for 1st Year, 2nd Semester Courses:\n- SE 112: Introduction to Object-Oriented Programming (Prerequisite: Passing CS 102)\n- CS 211: Data Structures (Prerequisite: Math 241 and passing SE 112)\n- Math 140: Linear Algebra (Prerequisite: Math 101)\n- Math 102: Calculus 2 (Prerequisite: Math 101)\n- CIS 203: Communication and Professional Ethics (No Prerequisite)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "CS 101_prerequisites",
+            "patterns": [
+                "What are the prerequisites for CS 101?",
+                "Tell me about the prerequisites for CS 101.",
+                "What are the requirements to take CS 101?"
+            ],
+            "responses": [
+                "The prerequisites for CS 101 are CIS 99 (or concurrent)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "SE 103_prerequisites",
+            "patterns": [
+                "What are the prerequisites for SE 103?",
+                "Tell me about the prerequisites for SE 103.",
+                "What are the requirements to take SE 103?"
+            ],
+            "responses": [
+                "The prerequisites for SE 103 are CS 101 (or concurrent)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Math 101_prerequisites",
+            "patterns": [
+                "What are the prerequisites for Math 101?",
+                "Tell me about the prerequisites for Math 101.",
+                "What are the requirements to take Math 101?"
+            ],
+            "responses": [
+                "There are no prerequisites for Math 101."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Math 241_prerequisites",
+            "patterns": [
+                "What are the prerequisites for Math 241?",
+                "Tell me about the prerequisites for Math 241.",
+                "What are the requirements to take Math 241?"
+            ],
+            "responses": [
+                "There are no prerequisites for Math 241."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "HSS 110_prerequisites",
+            "patterns": [
+                "What are the prerequisites for HSS 110?",
+                "Tell me about the prerequisites for HSS 110.",
+                "What are the requirements to take HSS 110?"
+            ],
+            "responses": [
+                "There are no prerequisites for HSS 110."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "LG 101_prerequisites",
+            "patterns": [
+                "What are the prerequisites for LG 101?",
+                "Tell me about the prerequisites for LG 101.",
+                "What are the requirements to take LG 101?"
+            ],
+            "responses": [
+                "The prerequisites for LG 101 are passing LG 099 or passing the English exam."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "study_plan_2nd_year_1st_semester",
+            "patterns": [
+                "What is the recommended study plan for the 1st semester of the 2nd year in AI B.Sc.?",
+                "What is the recommended study plan for the first semester of the second year in AI B.Sc.?",
+                "Tell me about the courses in the 1st semester of the 2nd year.",
+                "What courses should be taken in the 1st semester of the 2nd year?"
+            ],
+            "responses": [
+                "Recommended Study Plan - 2nd Year, 1st Semester:\nCS 284: Analysis and Design of Algorithms (3 CH, Prerequisite: CS 211 + Math 233)\nMath 233: Probability & Statistics (3 CH, Prerequisite: Math 102)\nCIS 201: Introduction to Web Design (1 CH, Prerequisite: SE 112)\nCIS 221: Fundamentals of Database Systems (3 CH, Prerequisite: CS 211)\nARB 102: Communication Skills in Arabic (3 CH, No Prerequisite)\nUniversity Elective (3 CH, No Prerequisite)\nTotal Credit Hours: 16"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "study_plan_2nd_year_2nd_semester",
+            "patterns": [
+                "What is the recommended study plan for the 2nd semester of the 2nd year in AI B.Sc.?",
+                "What is the recommended study plan for the second semester of the second year in AI B.Sc.? ",
+                "Tell me about the courses in the 2nd semester of the 2nd year.",
+                "What courses should be taken in the 2nd semester of the 2nd year?"
+            ],
+            "responses": [
+                "Recommended Study Plan - 2nd Year, 2nd Semester:\nAI 240: Introduction to Artificial Intelligence (3 CH, Prerequisite: CS 284)\nAI 244: Artificial Intelligence Programming (3 CH, Prerequisite: CS 101)\nAI 244 (Practical): Artificial Intelligence Programming (0 CH, Concurrent with AI 244)\nMS 100: Military Science (3 CH, No Prerequisite)\nAI 249: Machine Learning (3 CH, Prerequisite: AI 244)\nLG 103: Life Skills (2 CH, No Prerequisite)\nUniversity Elective (3 CH, No Prerequisite)\nTotal Credit Hours: 17"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "CS 233_prerequisites",
+            "patterns": [
+                "What are the prerequisites for CS 233?",
+                "Tell me about the prerequisites for CS 233.",
+                "What are the requirements to take CS 233?"
+            ],
+            "responses": [
+                "The prerequisites for CS 233 are Math 102."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "CIS 201_prerequisites",
+            "patterns": [
+                "What are the prerequisites for CIS 201?",
+                "Tell me about the prerequisites for CIS 201.",
+                "What are the requirements to take CIS 201?"
+            ],
+            "responses": [
+                "The prerequisites for CIS 201 are SE 112."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "CIS 221_prerequisites",
+            "patterns": [
+                "What are the prerequisites for CIS 221?",
+                "Tell me about the prerequisites for CIS 221.",
+                "What are the requirements to take CIS 221?"
+            ],
+            "responses": [
+                "The prerequisites for CIS 221 are CS 211."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 240_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 240?",
+                "Tell me about the prerequisites for AI 240.",
+                "What are the requirements to take AI 240?"
+            ],
+            "responses": [
+                "The prerequisites for AI 240 are CS 284."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 244_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 244?",
+                "Tell me about the prerequisites for AI 244.",
+                "What are the requirements to take AI 244?"
+            ],
+            "responses": [
+                "The prerequisites for AI 244 are CS 101."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 249_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 249?",
+                "Tell me about the prerequisites for AI 249.",
+                "What are the requirements to take AI 249?"
+            ],
+            "responses": [
+                "The prerequisites for AI 249 are AI 244."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "study_plan_3rd_year_1st_semester",
+            "patterns": [
+                "What is the recommended study plan for the 1st semester of the 3rd year in AI B.Sc.?",
+                "What is the recommended study plan for the first semester of the third year in AI B.Sc.?",
+                "Tell me about the courses in the 1st semester of the 3rd year.",
+                "What courses should be taken in the 1st semester of the 3rd year?"
+            ],
+            "responses": [
+                "Recommended Study Plan - 3rd Year, 1st Semester:\nAI 375: Operating Systems (3 CH, Prerequisite: CS 284)\nAI 328: Big Data Processing (3 CH, Prerequisite: CIS 221)\nAI 375: Digital Image Processing (3 CH, Prerequisite: CS 284 + Math 140)\nAI 380: Optimization Algorithms (3 CH, Prerequisite: CS 284 + AI 244)\nHSS 119: Entrepreneurship and Innovation (2 CH, No Prerequisite)\nUniversity Elective (3 CH, No Prerequisite)\nTotal Credit Hours: 17"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "study_plan_3rd_year_2nd_semester",
+            "patterns": [
+                "What is the recommended study plan for the 2nd semester of the 3rd year in AI B.Sc.?",
+                "What is the recommended study plan for the second semester of the third year in AI B.Sc.?",
+                "Tell me about the courses in the 2nd semester of the 3rd year.",
+                "What courses should be taken in the 2nd semester of the 3rd year?"
+            ],
+            "responses": [
+                "Recommended Study Plan - 3rd Year, 2nd Semester:\nAI 350: Data Science (3 CH, Prerequisite: AI 328)\nAI 342: Deep Learning (3 CH, Prerequisite: AI 249)\nAI 356: Information Retrieval (3 CH, Prerequisite: AI 249)\nAI 378: Smart Systems (3 CH, Prerequisite: CS 375)\nDepartment Elective (3 CH, No Prerequisite)\nTotal Credit Hours: 15"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "study_plan_3rd_year_3rd_semester",
+            "patterns": [
+                "What is the recommended study plan for the 3rd semester (summer) of the 3rd year in AI B.Sc.?",
+                "What is the recommended study plan for the third semester (summer) of the third year in AI B.Sc.?",
+                "Tell me about the courses in the 3rd semester (summer) of the 3rd year.",
+                "What courses should be taken in the 3rd semester (summer) of the 3rd year?"
+            ],
+            "responses": [
+                "Recommended Study Plan - 3rd Year, 3rd Semester (Summer):\nAI 490: Internship (3 CH, Prerequisite: Passing 90 CHs or department approval)\nTotal Credit Hours: 3"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 375_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 375?",
+                "Tell me about the prerequisites for AI 375.",
+                "What are the requirements to take AI 375?"
+            ],
+            "responses": [
+                "The prerequisites for AI 375 are CS 284."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 328_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 328?",
+                "Tell me about the prerequisites for AI 328.",
+                "What are the requirements to take AI 328?"
+            ],
+            "responses": [
+                "The prerequisites for AI 328 are CIS 221."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 375 (Digital Image Processing)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 375 (Digital Image Processing)?",
+                "Tell me about the prerequisites for AI 375 (Digital Image Processing).",
+                "What are the requirements to take AI 375 (Digital Image Processing)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 375 (Digital Image Processing) are CS 284 + Math 140."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 380_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 380?",
+                "Tell me about the prerequisites for AI 380.",
+                "What are the requirements to take AI 380?"
+            ],
+            "responses": [
+                "The prerequisites for AI 380 are CS 284 + AI 244."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 490 (Internship)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 490 (Internship)?",
+                "Tell me about the prerequisites for AI 490 (Internship).",
+                "What are the requirements to take AI 490 (Internship)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 490 (Internship) are passing 90 CHs or department approval."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 350 (Data Science)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 350 (Data Science)?",
+                "Tell me about the prerequisites for AI 350 (Data Science).",
+                "What are the requirements to take AI 350 (Data Science)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 350 (Data Science) are AI 328."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 342 (Deep Learning)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 342 (Deep Learning)?",
+                "Tell me about the prerequisites for AI 342 (Deep Learning).",
+                "What are the requirements to take AI 342 (Deep Learning)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 342 (Deep Learning) are AI 249."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 356 (Information Retrieval)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 356 (Information Retrieval)?",
+                "Tell me about the prerequisites for AI 356 (Information Retrieval).",
+                "What are the requirements to take AI 356 (Information Retrieval)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 356 (Information Retrieval) are AI 249."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 378 (Smart Systems)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 378 (Smart Systems)?",
+                "Tell me about the prerequisites for AI 378 (Smart Systems).",
+                "What are the requirements to take AI 378 (Smart Systems)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 378 (Smart Systems) are CS 375."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "study_plan_4th_year_1st_semester",
+            "patterns": [
+                "What is the recommended study plan for the 1st semester of the 4th year in AI B.Sc.?",
+                "What is the recommended study plan for the first semester of the fourth year in AI B.Sc.?",
+                "Tell me about the courses in the 1st semester of the 4th year.",
+                "What courses should be taken in the 1st semester of the 4th year?"
+            ],
+            "responses": [
+                "Recommended Study Plan - 4th Year, 1st Semester:\nAI 445: Natural Language Processing (3 CH, Prerequisite: AI 342)\nAI 447: Computer Vision (3 CH, Prerequisite: AI 342 + AI 375)\nAI 471: Artificial Intelligence for Games (3 CH, Prerequisite: AI 342)\nAI 477: Robotics (3 CH, Prerequisite: AI 342)\nAI 491: Graduation Project (1) (2 CH, Prerequisite: Passing 90 CHs)\nDepartment Elective (3 CH, No Prerequisite)\nTotal Credit Hours: 17"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "study_plan_4th_year_2nd_semester",
+            "patterns": [
+                "What is the recommended study plan for the 2nd semester of the 4th year in AI B.Sc.?",
+                "What is the recommended study plan for the second semester of the fourth year in AI B.Sc.?",
+                "Tell me about the courses in the 2nd semester of the 4th year.",
+                "What courses should be taken in the 2nd semester of the 4th year?"
+            ],
+            "responses": [
+                "Recommended Study Plan - 4th Year, 2nd Semester:\nAI 446: Audio and Speech Processing (3 CH, Prerequisite: AI 342)\nAI 448: Deep Reinforcement Learning (3 CH, Prerequisite: AI 342)\nAI 474: Extended Reality (3 CH, Prerequisite: AI 447)\nAI 492: Graduation Project (2) (3 CH, Prerequisite: AI 491)\nDepartment Elective (3 CH, No Prerequisite)\nTotal Credit Hours: 15"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 445 (Natural Language Processing)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 445 (Natural Language Processing)?",
+                "Tell me about the prerequisites for AI 445 (Natural Language Processing).",
+                "What are the requirements to take AI 445 (Natural Language Processing)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 445 (Natural Language Processing) are AI 342."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 447 (Computer Vision)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 447 (Computer Vision)?",
+                "Tell me about the prerequisites for AI 447 (Computer Vision).",
+                "What are the requirements to take AI 447 (Computer Vision)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 447 (Computer Vision) are AI 342 + AI 375."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 471 (Artificial Intelligence for Games)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 471 (Artificial Intelligence for Games)?",
+                "Tell me about the prerequisites for AI 471 (Artificial Intelligence for Games).",
+                "What are the requirements to take AI 471 (Artificial Intelligence for Games)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 471 (Artificial Intelligence for Games) are AI 342."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 477 (Robotics)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 477 (Robotics)?",
+                "Tell me about the prerequisites for AI 477 (Robotics).",
+                "What are the requirements to take AI 477 (Robotics)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 477 (Robotics) are AI 342."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 491 (Graduation Project - 1)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 491 (Graduation Project - 1)?",
+                "Tell me about the prerequisites for AI 491 (Graduation Project - 1).",
+                "What are the requirements to take AI 491 (Graduation Project - 1)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 491 (Graduation Project - 1) are passing 90 CHs."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 446 (Audio and Speech Processing)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 446 (Audio and Speech Processing)?",
+                "Tell me about the prerequisites for AI 446 (Audio and Speech Processing).",
+                "What are the requirements to take AI 446 (Audio and Speech Processing)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 446 (Audio and Speech Processing) are AI 342."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 448 (Deep Reinforcement Learning)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 448 (Deep Reinforcement Learning)?",
+                "Tell me about the prerequisites for AI 448 (Deep Reinforcement Learning).",
+                "What are the requirements to take AI 448 (Deep Reinforcement Learning)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 448 (Deep Reinforcement Learning) are AI 342."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 474 (Extended Reality)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 474 (Extended Reality)?",
+                "Tell me about the prerequisites for AI 474 (Extended Reality).",
+                "What are the requirements to take AI 474 (Extended Reality)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 474 (Extended Reality) are AI 447."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 492 (Graduation Project - 2)_prerequisites",
+            "patterns": [
+                "What are the prerequisites for AI 492 (Graduation Project - 2)?",
+                "Tell me about the prerequisites for AI 492 (Graduation Project - 2).",
+                "What are the requirements to take AI 492 (Graduation Project - 2)?"
+            ],
+            "responses": [
+                "The prerequisites for AI 492 (Graduation Project - 2) are AI 491."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "course_prerequisites",
+            "patterns": [
+                "What are the prerequisites for the Department Elective in the 2nd semester of the 4th year?",
+                "Tell me about the prerequisites for the Department Elective in the 2nd semester.",
+                "What are the requirements to take the Department Elective in the 2nd semester of the 4th year?"
+            ],
+            "responses": [
+                "There are no specific prerequisites for the Department Elective in the 2nd semester of the 4th year. However, it is recommended to consult with the department for available choices."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 240 (Introduction to Artificial Intelligence)_description",
+            "patterns": [
+                "Tell me about AI 240 (Introduction to Artificial Intelligence).",
+                "What does AI 240 cover?",
+                "Describe AI 240 course content."
+            ],
+            "responses": [
+                "AI 240 (Introduction to Artificial Intelligence) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is CS 284.\nThis course serves as an introduction to the fundamental concepts of knowledge representation, problem-solving, and learning methods in artificial intelligence. It covers specific AI techniques, various application areas, and interdisciplinary connections with fields like philosophy and psychology.\nTechniques explored in the course include heuristic search, automated reasoning, machine learning, deliberative planning, and behavior-based agent control. Application areas encompass robotics, games, knowledge representation, and natural language processing."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 244 (Artificial Intelligence Programming)_description",
+            "patterns": [
+                "Tell me about AI 244 (Artificial Intelligence Programming).",
+                "What does AI 244 cover?",
+                "Describe AI 244 course content."
+            ],
+            "responses": [
+                "AI 244 (Artificial Intelligence Programming) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is CS 101.\nThis course provides fundamental knowledge of the Python programming language and programming best practices. Students will learn about Python libraries for solving computational problems related to AI and Machine Learning tasks, including obtaining and handling real-world data, data manipulation, analysis, and visualization, as well as building ML models.\nThroughout the course, students gain practical experience in applying AI techniques to real-world tasks using Python and popular Python AI libraries."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 249 (Machine Learning)_description",
+            "patterns": [
+                "Tell me about AI 249 (Machine Learning).",
+                "What does AI 249 cover?",
+                "Describe AI 249 course content."
+            ],
+            "responses": [
+                "AI 249 (Machine Learning) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 244.\nThis course offers a comprehensive introduction to the principles, algorithms, and applications of machine learning. Topics covered include a review of vital mathematical, statistical, and algorithmic concepts, supervised learning, curve fitting, linear models for regression and classification, Bayesian regression, evidence approximation, decision trees, discriminative functions, generative models, discriminative models, and more.\nOther topics encompass Bayesian logistic regression, linear prediction with regularization (Lasso and Elastic Net), feature selection, model selection, supervised classification, KNN theory, principal component analysis, support vector machines, and more. If you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 328 (Big Data Processing)_description",
+            "patterns": [
+                "Tell me about AI 328 (Big Data Processing).",
+                "What does AI 328 cover?",
+                "Describe AI 328 course content."
+            ],
+            "responses": [
+                "AI 328 (Big Data Processing) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is CIS 221.\nThis course addresses distributed storage and large data set processing with a focus on architectures and technologies. Students will explore various data genres and management tools suitable for processing big data. The course covers Hadoop and its framework, distributed storage, data processing, NoSQL databases, and other competing technologies. Through guided hands-on tutorials, students will become familiar with techniques using real-time and semi-structured data examples to design business solutions for managing big data projects. If you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 342 (Deep Learning)_description",
+            "patterns": [
+                "Tell me about AI 342 (Deep Learning).",
+                "What does AI 342 cover?",
+                "Describe AI 342 course content."
+            ],
+            "responses": [
+                "AI 342 (Deep Learning) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 249.\nThis course introduces students to the concept of deep learning and its key principles. It covers feed-forward neural networks, convolutional neural networks (object classification, object detection, face verification, style transfer), recurrent neural network (natural language processing, speech recognition), sequence modelling, techniques to improve neural networks, generative adversarial networks, deep reinforcement learning, and adversarial attacks.\nBy the end of the course, students are expected to build, train, and apply fully connected deep neural networks. They will also be equipped to implement efficient neural networks using popular libraries for deep learning such as Keras, PyTorch, and TensorFlow. If you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 350 (Data Science)_description",
+            "patterns": [
+                "Tell me about AI 350 (Data Science).",
+                "What does AI 350 cover?",
+                "Describe AI 350 course content."
+            ],
+            "responses": [
+                "AI 350 (Data Science) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 328.\nThis course equips students with key concepts in data science and programming skills. Topics covered include the definition of data science and its relationships with other fields, data acquisition and exploration, data profiling, data cleaning, data quality, feature selection (structured and unstructured data), model selection, and result analysis and visualization.\nThe course also delves into python packages essential for data science and analytics. If you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 356 (Information Retrieval)_description",
+            "patterns": [
+                "Tell me about AI 356 (Information Retrieval).",
+                "What does AI 356 cover?",
+                "Describe AI 356 course content."
+            ],
+            "responses": [
+                "AI 356 (Information Retrieval) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 249.\nThis course aims to understand information retrieval algorithms and identify challenging problems on the Web. Topics include keyword-based retrieval, file structures, thesaurus construction, lexical analysis, stemming, term weighting, associative indexing, Boolean operations, string searching and matching techniques, document modeling and inverted index construction and compression, vector space model and ranking methods, probabilistic and language models, evaluation methods, relevance feedback, and query expansion.\nThe course also covers web search fundamentals, including web search engine architecture, web crawling and indexing, web structure, and usage analytics. If you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 365 (Information Security and Privacy)_description",
+            "patterns": [
+                "Tell me about AI 365 (Information Security and Privacy).",
+                "What does AI 365 cover?",
+                "Describe AI 365 course content."
+            ],
+            "responses": [
+                "AI 365 (Information Security and Privacy) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 240.\nThis course covers the fundamental issues and first principles of security and information assurance. Topics include security policies, models, and mechanisms related to confidentiality, integrity, authentication, identification, and availability issues. Basics of cryptography, network security, risk management, security assurance, secure design principles, organizational security policy, legal and ethical issues in security, standards, and methodologies for security evaluation and certification are also covered.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 375 (Digital Image Processing)_description",
+            "patterns": [
+                "Tell me about AI 375 (Digital Image Processing).",
+                "What does AI 375 cover?",
+                "Describe AI 375 course content."
+            ],
+            "responses": [
+                "AI 375 (Digital Image Processing) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is CS 284 + Math 140.\nThis course covers image sampling and quantization, color, point operations, segmentation, morphological image processing, linear image filtering and correlation, image transforms, eigenimages, multiresolution image processing, noise reduction and restoration, feature extraction, and recognition tasks.\nEmphasis is on the general principles of image processing. Students learn to apply material by implementing and investigating image processing algorithms. If you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 378 (Smart Systems)_description",
+            "patterns": [
+                "Tell me about AI 378 (Smart Systems).",
+                "What does AI 378 cover?",
+                "Describe AI 378 course content."
+            ],
+            "responses": [
+                "AI 378 (Smart Systems) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is CS 375.\nThis course aims at preparing students for the smart cities and Internet of Things (IoT) markets. It introduces the building blocks of IoT systems and the underlying technologies that drive the IoT revolution. Part of the course deals with developing real-world IoT applications/mobile application prototypes from the sensing level to the end-user applications to solve existing problems in society.\nMoreover, the course utilizes AI algorithms to build models and large-scale systems to solve problems such as telco management, intelligent transportation, urban planning, real-time crowd management, retail intelligence, and industry 4.0 using various data sources. If you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 380 (Optimization Algorithms)_description",
+            "patterns": [
+                "Tell me about AI 380 (Optimization Algorithms).",
+                "What does AI 380 cover?",
+                "Describe AI 380 course content."
+            ],
+            "responses": [
+                "AI 380 (Optimization Algorithms) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is CS 284 + AI 244.\nThis course introduces the principles of optimization problems and algorithms. It covers the most fundamental concepts in the field of optimization techniques, including heuristics, metaheuristics, and evolutionary optimization techniques.\nThe course will also show how to tackle several difficulties in different optimization problems. By the end of the course, students need to be able to identify and implement the main components of an optimization problem in a variety of applications, including Machine Learning, Data Science, Neural Networks, and Deep Learning. If you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 421 (Cloud Computing)_description",
+            "patterns": [
+                "Tell me about AI 421 (Cloud Computing).",
+                "What does AI 421 cover?",
+                "Describe AI 421 course content."
+            ],
+            "responses": [
+                "AI 421 (Cloud Computing) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 328.\nThe course gives an introduction to cloud computing, its techniques, and main components. It covers the topics of data centers, virtualization, cloud storage, and programming models. It discusses the motivating factors, benefits, challenges, and service models.\nThe course also describes several concepts behind data center design and management. It presents virtualization, data distribution, durability, consistency, and redundancy. If you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 442 (Artificial Intelligence Planning)_description",
+            "patterns": [
+                "Tell me about AI 442 (Artificial Intelligence Planning).",
+                "What does AI 442 cover?",
+                "Describe AI 442 course content."
+            ],
+            "responses": [
+                "AI 442 (Artificial Intelligence Planning) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 272.\nPlanning is a fundamental part of intelligent systems. It involves finding a sequence of actions needed to achieve system goals while optimizing overall performance. Intelligent planners can reason about the effects of actions and efficiently search the space of possible plans.\nTopics include action and plan representation, reactive systems, hierarchical and abstraction planning, case-based planning, machine learning in planning, multi-agent planning, Artificial Intelligence Planning for Robots, interacting with the environment, planning under uncertainty, plan execution, partial plans and plan refinement, task network and decomposition, Graphplan Algorithm, Pattern Databases, plan generation, planning modeling languages, and applications of planning.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 443 (Multi-Agent Systems)_description",
+            "patterns": [
+                "Tell me about AI 443 (Multi-Agent Systems).",
+                "What does AI 443 cover?",
+                "Describe AI 443 course content."
+            ],
+            "responses": [
+                "AI 443 (Multi-Agent Systems) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 471.\nA multi-agent system is composed of multiple autonomous entities, such as sensor networks and robots, with distributed information, computational ability, and possibly ramified interests. This course serves as the foundation of multi-agent systems, including distributed optimization and problem-solving.\nTopics include an introduction to game theory, basic game representations and solution concepts, models of cooperation, extensive form games, repeated games, security games, coalitional and Bayesian games, multi-agent learning, voting, and problem-solving in networks, communication, social choice, mechanism design, auctions, and negotiation.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 445 (Natural Language Processing)_description",
+            "patterns": [
+                "Tell me about AI 445 (Natural Language Processing).",
+                "What does AI 445 cover?",
+                "Describe AI 445 course content."
+            ],
+            "responses": [
+                "AI 445 (Natural Language Processing) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 342.\nNatural language processing (NLP) is a crucial part of artificial intelligence (AI), modeling how people share information. This course explores current statistical and deep learning techniques for the automatic analysis of natural (human) language data.\nTopics include language modeling, word-sense disambiguation, morphological analysis, part-of-speech tagging, syntactic parsing, semantic interpretation, co-reference resolution, and discourse analysis. Applications include information extraction, question answering, speech recognition, interactive dialog systems, machine translation, sentiment analysis, and summarization.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 446 (Audio and Speech Processing)_description",
+            "patterns": [
+                "Tell me about AI 446 (Audio and Speech Processing).",
+                "What does AI 446 cover?",
+                "Describe AI 446 course content."
+            ],
+            "responses": [
+                "AI 446 (Audio and Speech Processing) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 342.\nThis course aims to give an elementary introduction to concepts, methods, and applications of audio signal processing with a focus on speech.\nThe course covers traditional as well as deep learning methods for automatic speech recognition, speech synthesis, affect detection, dialogue management, semantic interpretation, text generation, and applications to digital assistants and spoken language understanding systems.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 447 (Computer Vision)_description",
+            "patterns": [
+                "Tell me about AI 447 (Computer Vision).",
+                "What does AI 447 cover?",
+                "Describe AI 447 course content."
+            ],
+            "responses": [
+                "AI 447 (Computer Vision) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisites for this course are AI 342 and AI 375.\nThis course provides a comprehensive introduction to computer vision, primarily concerned with capturing and making sense of digital images. The field draws heavily on major subjects, including digital image processing, artificial intelligence, feature extraction and selection, image classification and recognition, and scene understanding.\nThe course also discusses various emerging applications of deep learning in computer vision, such as Attention and transformers, Object detection and recognition, Image segmentation, image/video classification, Generative models (GANs, VAEs, autoregressive), and object tracking.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 448 (Deep Reinforcement Learning)_description",
+            "patterns": [
+                "Tell me about AI 448 (Deep Reinforcement Learning).",
+                "What does AI 448 cover?",
+                "Describe AI 448 course content."
+            ],
+            "responses": [
+                "AI 448 (Deep Reinforcement Learning) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 342.\nThis course introduces deep reinforcement learning (RL), one of the most modern techniques of machine learning. Topics include key features of RL, basics of RL, MDPs, and POMDP, sample complexity analyses of tabular RL, policy gradient and iteration, off-policy evaluation, TD learning and Q-learning, linear value approximation, proximal policy optimization, bandit, batch offline and online RL, various actor/critic algorithms, PAC exploration theory (tabular and function approximation).\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 452 (Semantic Web)_description",
+            "patterns": [
+                "Tell me about AI 452 (Semantic Web).",
+                "What does AI 452 cover?",
+                "Describe AI 452 course content."
+            ],
+            "responses": [
+                "AI 452 (Semantic Web) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is CIS 201.\nAn introduction to semantic web technologies and their applications. Students will learn different aspects of web semantic representation and how to reason about data using ontologies.\nTopics include the semantic web activity of W3C, semantic modeling and ontology representation, semantic web applications, logic for the semantic web, ontologies modeling and design using resource description framework (RDF) and web ontology language (OWL), and semantic web applications.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 453 (Social Networks Analysis)_description",
+            "patterns": [
+                "Tell me about AI 453 (Social Networks Analysis).",
+                "What does AI 453 cover?",
+                "Describe AI 453 course content."
+            ],
+            "responses": [
+                "AI 453 (Social Networks Analysis) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 356.\nAn introduction to the concepts and methods of social network analysis. This course will introduce students to different techniques of extracting and analyzing large-scale network data and how to reason about it.\nTopics include methods for social network analysis, network models, graph representation, graph traversal algorithms, graph mining, link analysis and network community detection, information propagation on the web, and recommendations systems. Students will also learn how to use some social network analysis packages/tools.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 454 (Business Intelligence)_description",
+            "patterns": [
+                "Tell me about AI 454 (Business Intelligence).",
+                "What does AI 454 cover?",
+                "Describe AI 454 course content."
+            ],
+            "responses": [
+                "AI 454 (Business Intelligence) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 350.\nThis course provides an introduction to the concepts of business intelligence and explores how business problems can be solved by applying data mining tools and analytics to gain new insights into organizational operations.\nTopics include the differences between types of reporting and analytics, enterprise data warehousing, data management systems, decision support systems, knowledge management systems and big data. Case studies are used to explore the use of application software, web tools, success and limitations of BI as well as technical and social issues.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 455 (Pattern Recognition)_description",
+            "patterns": [
+                "Tell me about AI 455 (Pattern Recognition).",
+                "What does AI 455 cover?",
+                "Describe AI 455 course content."
+            ],
+            "responses": [
+                "AI 455 (Pattern Recognition) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 342.\nThis course covers pattern recognition techniques concerned with the theory and algorithms of putting abstract objects, e.g., measurements made on physical objects, into categories.\nTopics include pattern recognition systems, preprocessing and feature extraction, training methods, maximum likelihood and Bayesian parameter estimation, linear discriminant, perceptron learning, optimization by Gradient descent, theories of supervised and unsupervised learning techniques with applications, object classification and recognition, artificial neural networks, mixture modeling, expectation-maximization, hidden Markov models, Viterbi algorithm, Baum-Welch algorithm, linear dynamical systems, Kalman filtering, reinforcement learning with human interaction, and combination of multiple classifiers.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 457 (Recommender Systems)_description",
+            "patterns": [
+                "Tell me about AI 457 (Recommender Systems).",
+                "What does AI 457 cover?",
+                "Describe AI 457 course content."
+            ],
+            "responses": [
+                "AI 457 (Recommender Systems) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 378.\nThis course will introduce students to a range of approaches for building recommender systems. Topics include collaborative, content-based, knowledge-based, and hybrid algorithms, filtering techniques, dimension reduction techniques for the user-product preference space, candidate generation, scoring, and re-ranking, and evaluation and metrics for recommender systems.\nStudents will implement recommendation algorithms using an open-source toolkit and conduct experimental evaluations.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 471 (Artificial Intelligence for Games)_description",
+            "patterns": [
+                "Tell me about AI 471 (Artificial Intelligence for Games).",
+                "What does AI 471 cover?",
+                "Describe AI 471 course content."
+            ],
+            "responses": [
+                "AI 471 (Artificial Intelligence for Games) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 342.\nThe purpose of this course is to familiarize students with issues and techniques of Artificial Intelligence (AI) for computer games.\nTopics include mathematical background, physics background, state-driven agent design, creating autonomously moving game agents, application as a simulation, designing the AI (players, teams, states, motions, maps, projectiles, triggers, decision making, path planning, perception, target selection, as well as strategies), graphs and graph search algorithms, scripting (creating a scripted finite state machine), goal-driven agent behavior, and fuzzy logic, all within the context of computer games.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 474 (Extended Reality)_description",
+            "patterns": [
+                "Tell me about AI 474 (Extended Reality).",
+                "What does AI 474 cover?",
+                "Describe AI 474 course content."
+            ],
+            "responses": [
+                "AI 474 (Extended Reality) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 447.\nThe course focuses on designing for Extended Reality (XR), which encompasses Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR). XR changes the way we think about designing digital interfaces because we are no longer constrained by two-dimensional (2D) space.\nTopics include integrating virtual intelligence into XR spaces to create dynamic user interfaces and personalized experiences, principles of human-computer interaction, design and evaluation of user interfaces, guidelines, standards, specification languages, XR concepts and technologies, tools in AR, VR, and MR, spatial computing, differences between modalities, marker and face detection, Unity AR libraries, SDKs, location-based computation, the future of XR, ethical AI design and digital objects.\nThe course also responds to live briefs from industry partners, where teams engage in a process of critical making to create innovative, proof-of-concept prototypes.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 477 (Robotics)_description",
+            "patterns": [
+                "Tell me about AI 477 (Robotics).",
+                "What does AI 477 cover?",
+                "Describe AI 477 course content."
+            ],
+            "responses": [
+                "AI 477 (Robotics) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 342.\nThis course covers the fundamental elements of mobile robot systems from a computational standpoint and provides an introduction to the design and implementation of intelligent mobile robot systems.\nTopics include mobile robots control (sensing, vision, control, motion, kinematics theory, navigation, localization and perception), software control architectures, sensor interpretation, map building and navigation, computer vision and image processing, camera calibrations and multi-camera view, mobile robotics, multi-robot systems, task planning, agent architectures, and reasoning.\nStudents program a small mobile robot to perform simple tasks in real-world environments.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 481 (Artificial Intelligence for Medicine and Healthcare)_description",
+            "patterns": [
+                "Tell me about AI 481 (Artificial Intelligence for Medicine and Healthcare).",
+                "What does AI 481 cover?",
+                "Describe AI 481 course content."
+            ],
+            "responses": [
+                "AI 481 (Artificial Intelligence for Medicine and Healthcare) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 342.\nThis course introduces the different applications of AI in the health care domain with a focus on medical data analytics.\nData analytics has emerged as a promising tool for solving problems across many Health-related disciplines. This course provides a clear understanding of the analytical techniques currently available to solve several health problems.\nThe course explains the novel techniques for acquiring, handling, retrieving, and making the best use of Health data. It will bridge the gap between computer scientists and domain-specific medical experts and help students gain more knowledge in this domain.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 482 (Artificial Intelligence for Computational Biology and Bioinformatics)_description",
+            "patterns": [
+                "Tell me about AI 482 (Artificial Intelligence for Computational Biology and Bioinformatics).",
+                "What does AI 482 cover?",
+                "Describe AI 482 course content."
+            ],
+            "responses": [
+                "AI 482 (Artificial Intelligence for Computational Biology and Bioinformatics) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 342.\nThis course introduces artificial intelligence (AI) in bioinformatics, computational biology, and biomedicine.\nIt covers topics related to complex biological analysis, the application of AI principles, and the integration of diverse biological content through different AI methods and technologies.\nThe course covers how to apply AI techniques such as data modeling, machine learning, deep learning, statistical methods, and data mining in Bioinformatics and Biomedicines problems.\nIt explores how to apply AI in bioinformatics technologies into several topics such as DNA, RNA, and protein structure and folding problems, drug discovery, digital health, genetics, and metabolic pathways.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 483 (Artificial Intelligence for Financial and Industrial Applications)_description",
+            "patterns": [
+                "Tell me about AI 483 (Artificial Intelligence for Financial and Industrial Applications).",
+                "What does AI 483 cover?",
+                "Describe AI 483 course content."
+            ],
+            "responses": [
+                "AI 483 (Artificial Intelligence for Financial and Industrial Applications) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 342.\nThis course explores the role of emerging AI algorithms and techniques on financial decisions. It introduces the basics of AI and its impact on financial services.\nThe course gives an overview of the potential implementations of AI within an organization. It explores a deep dive into determining if the business is prepared for the future using several AI techniques.\nThe course provides hands-on financial forecasting experience using several AI and machine learning techniques and grasp forecasting techniques on specific real-world financial data.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "cAI 484 (Fuzzy Logic)_description",
+            "patterns": [
+                "Tell me about AI 484 (Fuzzy Logic).",
+                "What does AI 484 cover?",
+                "Describe AI 484 course content."
+            ],
+            "responses": [
+                "AI 484 (Fuzzy Logic) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is CS 284.\nThis course provides an introduction to fuzzy sets, fuzzy relations, fuzzy measures, fuzzy logic, and approximate reasoning. It explores applications of fuzzy systems in pattern recognition, control, and signal processing.\nThe course aims to show the differences between fuzzy sets and crisp sets. Various terms used in the fuzzy sets and the grammar of fuzzy sets will be discussed.\nTopics include how to model fuzzy sets, how to handle with arithmetic of fuzzy quantities, and how to acquire operations with fuzzy relations.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 485 (Drones and Autonomous Systems)_description",
+            "patterns": [
+                "Tell me about AI 485 (Drones and Autonomous Systems).",
+                "What does AI 485 cover?",
+                "Describe AI 485 course content."
+            ],
+            "responses": [
+                "AI 485 (Drones and Autonomous Systems) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 477.\nThe course provides an introduction to unmanned aerial systems (UAS), including drones and autonomous unmanned aerial vehicles (UAV), with sensors for obstacle avoidance, other instruments, and payloads relying on complex algorithms for various uses.\nIt aims at preparing students to understand the commercial and research capabilities of drones, covering sensors, platforms, navigation, power source, propulsion, payloads, command, communication and control, range, altitude, speed, and wide area surveillance.\nBy the end of the course, students will be able to comprehend a systems view of drones with hardware and software, including data collection, storage, and analytical requirements, along with the systems life cycle with needs and purpose: assessment, goals/objectives, requirements, testing, and training.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 490 (Internship)_description",
+            "patterns": [
+                "Tell me about AI 490 (Internship).",
+                "What does AI 490 cover?",
+                "Describe AI 490 course content."
+            ],
+            "responses": [
+                "AI 490 (Internship) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is passing 90 credit hours or department approval.\nA student is required to conduct training in one of the local organizations for at least six weeks, for a period of 60 working days. They present a report from the organization to describe the effectiveness of the practice according to the training regulations.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 491 (Graduation Project - 1)_description",
+            "patterns": [
+                "Tell me about AI 491 (Graduation Project - 1).",
+                "What does AI 491 cover?",
+                "Describe AI 491 course content."
+            ],
+            "responses": [
+                "AI 491 (Graduation Project - 1) is a 2-credit hour course with 2 hours of lectures per week and no lab component. The prerequisite for this course is passing 90 credit hours.\nThe graduation project provides a unique opportunity for students in the Artificial Intelligence program to apply their knowledge of the foundations, theory, and methods of AI and software development to address and provide solutions (i.e., developing software applications) to problems in industry, government, the non-profit sector, and other areas.\nThe course activities focus on a two-semester-length project sponsored by a local organization if available. Typically, two to four students work together as a team on each graduation project. Each team is supervised by a faculty mentor, and projects progress through several phases.\nThis course includes the first stage of the graduation project where the student(s) should define, analyze the problem, and finally write a proposal. Then present it to a predetermined committee in the department. It includes weekly meetings with the supervisors.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 492 (Graduation Project - 2)_description",
+            "patterns": [
+                "Tell me about AI 492 (Graduation Project - 2).",
+                "What does AI 492 cover?",
+                "Describe AI 492 course content."
+            ],
+            "responses": [
+                "AI 492 (Graduation Project - 2) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is AI 491.\nThis is the second stage of the graduation projects, which includes the practical aspects of design, implementation, and testing for the resulting project. It involves cooperative formative research, design, development, and testing of a sizable and realistic sociotechnical system - a solution to a real-world problem that includes both technical and human components.\nStudents work as a team with a client on a real-world open-ended problem and gain experience in Artificial Intelligence (problem definition, software development, iterative design), and in other fields relevant to the problem. Both student participation in the classroom and effective teamwork outside the classroom are stressed. It includes weekly meetings with the supervisors.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 495-I (Special Topics in AI - 1)_description",
+            "patterns": [
+                "Tell me about AI 495-I (Special Topics in AI - 1).",
+                "What does AI 495-I cover?",
+                "Describe AI 495-I course content."
+            ],
+            "responses": [
+                "AI 495-I (Special Topics in AI - 1) is a 1-credit hour course with 1 hour of lecture per week and no lab component. The prerequisite for this course is department approval.\nThe department chooses a topic related to the field of Artificial Intelligence as needed. This course should cover state-of-the-art problems and solutions in Artificial Intelligence.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 495-II (Special Topics in AI - 2)_description",
+            "patterns": [
+                "Tell me about AI 495-II (Special Topics in AI - 2).",
+                "What does AI 495-II cover?",
+                "Describe AI 495-II course content."
+            ],
+            "responses": [
+                "AI 495-II (Special Topics in AI - 2) is a 2-credit hour course with 2 hours of lectures per week and no lab component. The prerequisite for this course is department approval.\nThe department chooses a topic related to the field of Artificial Intelligence as needed. This course should cover state-of-the-art problems and solutions in Artificial Intelligence.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AI 495-III (Special Topics in AI - 3)_description",
+            "patterns": [
+                "Tell me about AI 495-III (Special Topics in AI - 3).",
+                "What does AI 495-III cover?",
+                "Describe AI 495-III course content."
+            ],
+            "responses": [
+                "AI 495-III (Special Topics in AI - 3) is a 3-credit hour course with 3 hours of lectures per week and no lab component. The prerequisite for this course is department approval.\nThe department chooses a topic related to the field of Artificial Intelligence as needed. This course should cover state-of-the-art problems and solutions in Artificial Intelligence.\nIf you have any further questions or need additional information, feel free to ask!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "MATH101 Calculus (I)_description",
+            "patterns": [
+                "Tell me about MATH101 Calculus (I).",
+                "What does MATH101 cover?",
+                "Describe MATH101 course content."
+            ],
+            "responses": [
+                "MATH101 Calculus (I) is a 3-credit hour course \nThe course covers fundamental topics in calculus, including functions, limits, continuity, and their applications. It explores concepts such as the chain rule, implicit differentiation, related rates, increase-decrease, and concavity.\nAdditional topics include extrema, Newton's method, Rolle's theorem, the Mean-Value Theorem, definite and indefinite integrations, and the fundamental theorem of calculus. The course also delves into the application of calculus in determining area and volume.\nSpecial attention is given to inverse functions, exponential and logarithmic functions, along with their derivatives. The course concludes with the study of conic sections."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "MATH102 Calculus (II)_description",
+            "patterns": [
+                "Tell me about MATH102 Calculus (II).",
+                "What does MATH102 cover?",
+                "Describe MATH102 course content."
+            ],
+            "responses": [
+                "MATH102 Calculus (II) is a 3-credit hour course \nThe course delves into advanced topics in calculus, starting with the study of inverse trigonometric and hyperbolic functions.\nTechniques of integration are explored, including integration by parts, trigonometric integrals, trigonometric substitutions, partial fractions, and handling quadratic expressions. The course covers general substitutions and introduces numerical integration methods such as Simpsons rule.\nAdditional topics include improper integrals, infinite series, convergence and divergence, convergence tests, and the study of Maclaurin and Taylor series.\nThe course extends into polar coordinates, covering their definition, arc length, area, and their application to conic sections."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "MATH140 Elements of Linear Algebra_description",
+            "patterns": [
+                "Tell me about MATH140 Elements of Linear Algebra.",
+                "What does MATH140 cover?",
+                "Describe MATH140 course content."
+            ],
+            "responses": [
+                "MATH140 Elements of Linear Algebra is a 3-credit hour course \nThe course is designed to provide a foundational understanding of key concepts in linear algebra.\nMain topics covered in this course include systems of linear equations and matrices, determinants, and vectors in 2-space.\nThe study extends to Euclidean vector spaces and general vector spaces, exploring their properties and applications."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "MATH233 Probability & Statistics_description",
+            "patterns": [
+                "Tell me about MATH233 Probability & Statistics.",
+                "What does MATH233 cover?",
+                "Describe MATH233 course content."
+            ],
+            "responses": [
+                "MATH233 Probability & Statistics (For Computer Sciences Students) is a 3-credit hour course \nThe course is tailored for computer sciences students and covers a comprehensive range of topics in probability and statistics.\nMain topics include descriptive statistics, probability theory with axioms and rules, conditional probability, and independence.\nThe study extends to discrete and continuous random variables, expectation, probability distributions, and sampling distributions.\nAdvanced topics include t and Chi-square distributions, F distributions, Central Limit Theorem (CLT), point estimation for mean and variance, hypothesis testing for small, large, and dependent samples, correlation, simple linear and multiple regression, and goodness of fit tests."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "MATH241 Discrete Mathematics_description",
+            "patterns": [
+                "Tell me about MATH241 Discrete Mathematics.",
+                "What does MATH241 cover?",
+                "Describe MATH241 course content."
+            ],
+            "responses": [
+                "MATH241 Discrete Mathematics is a 3-credit hour course \nThe course serves as an introduction to discrete mathematical structures that form the foundation for computing.\nKey topics covered include sets, functions, and sequences. The course delves into propositional calculus, formal proofs, quantifiers, predicate calculus, and mathematical induction.\nAdvanced topics encompass matrices, groups, semigroups, homomorphism, and isomorphism. The study also explores relations, partitions, equivalence relations, trees, and both directed and undirected graphs."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Programming_description",
+            "patterns": [
+                "Tell me about Introduction to Programming.",
+                "Describe Introduction to Programming course.",
+                "What is covered in the Introduction to Programming course?"
+            ],
+            "responses": [
+                "Introduction to Programming is a 3-credit hour course titled 'Introduction to Programming.\nThis course serves as an introduction to object-oriented programming, emphasizing concepts of program specification, design, algorithm development, and coding and testing using a modern software development environment.\nStudents will learn to write programs in an object-oriented high-level programming language. Key topics covered include fundamentals of algorithms, flowcharts, problem-solving, programming concepts, classes and methods, control structures, arrays, and strings.\nThroughout the semester, emphasis will be placed on developing problem-solving skills applied to computing problems. Weekly laboratory experiments provide hands-on experience in the topics covered in this course."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Object Oriented Programming_description",
+            "patterns": [
+                "tell me about introduction to object oriented programming",
+                "describe the course with arabic name introduction to object oriented programming",
+                "what is covered in the introduction to object oriented programming course",
+                "intro to oop",
+                "object"
+            ],
+            "responses": [
+                "Introduction to Object-Oriented Programming is a 3-credit hour course.\nPrerequisite: Passing CS 102.\nThis course introduces the principles of object-oriented programming using a language that supports OOP concepts.\nKey topics covered include classes, objects, properties, indexers, attribute encapsulation, data abstraction, inheritance, polymorphism, generalization, specialization, exception handling, aggregation, and associations.\nWeekly laboratory experiments provide hands-on experience in the topics covered in this course."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Data Structures_description",
+            "patterns": [
+                "Tell me about Data Structures.",
+                "Describe the course with Arabic name Data Structures.",
+                "What is covered in the Data Structures course?"
+            ],
+            "responses": [
+                "Data Structures is a 3-credit hour course.\nPrerequisite: Passing CS 112.\nThis course provides an introduction to data structures using an object-oriented programming language.\nTopics covered include the logical and physical representation of data structures, collection types, array-based lists, linked lists, stacks, queues, basics of algorithm analysis, binary trees, binary search trees, hashing, and heaps.\nApplications and algorithms based on data structures are explored throughout the course.\nWeekly laboratory experiments offer hands-on experience in the topics covered in this course."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Analysis and Design of Algorithms_description",
+            "patterns": [
+                "Tell me about Analysis and Design of Algorithms.",
+                "Describe the course with Arabic name Analysis and Design of Algorithms.",
+                "What is covered in the Analysis and Design of Algorithms course?"
+            ],
+            "responses": [
+                "Analysis and Design of Algorithms is a 3-credit hour course.\nPrerequisite: CS 211.\nThis course serves as an introduction to the design, implementation, and analysis of computer algorithms.\nTopics covered include the growth of functions, the time complexity of algorithms, recurrence relations and their solutions, as well as the design and analysis of various sorting algorithms (insertion, merge, quick, and heap sort).\nAdditionally, the course explores graph searching algorithms such as breadth-first and depth-first search, along with spanning trees.\nThe course involves programming projects to apply the concepts ."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "math_courses_AI_complete",
+            "patterns": [
+                "What are the mathematics courses required for the AI specialization?",
+                "I want to know the mathematical courses for the Artificial Intelligence major.",
+                "Can you list the mathematical subjects in the AI specialization?",
+                "mathematics courses"
+            ],
+            "responses": [
+                "For the Artificial Intelligence specialization, the mathematics curriculum includes several essential courses:1. **MATH101: Calculus (I):** Covers functions, limits, continuity, derivatives, and basic applications\n2. **MATH102: Calculus (II):** Explores inverse trigonometric functions, techniques of integration, infinite series, and polar coordinates.\n3. **MATH140: Elements Of Linear Algebra:** Focuses on systems of linear equations, matrices, determinants, and vector spaces.\n4. **MATH233: Probability & Statistics (For Computer Sciences Students):** Covers descriptive statistics, probability, random variables, sampling distributions, and hypothesis testing.\n5. **MATH241: Discrete Mathematics:** Introduces discrete structures like sets, functions, sequences, propositional calculus, and graph theory."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "programming_courses_AI",
+            "patterns": [
+                "Can you list the programming courses for the Artificial Intelligence specialization?",
+                "What programming subjects are included in the AI major?",
+                "I want to know about the programming courses in the Artificial Intelligence specialization.",
+                "programming courses"
+            ],
+            "responses": [
+                "Certainly! In the Artificial Intelligence specialization, the programming curriculum includes the following courses:\n1. **Introduction to Programming:** This course covers fundamental concepts like program specification, algorithm development, and coding using an object-oriented high-level programming language.\n2. **Introduction to Object-Oriented Programming:** Explores advanced object-oriented programming concepts, including classes, objects, inheritance, polymorphism, and exception handling.\n3. **Data Structures:** Provides an introduction to data structures using an object-oriented programming language. Topics include array-based lists, linked lists, stacks, queues, binary trees, and more.\n4. **Analysis and Design of Algorithms:** An introductory course covering the design, implementation, and analysis of computer algorithms. Topics include time complexity, recurrence relations, sorting algorithms, and graph searching algorithms.\n5. **Artificial Intelligence Programming (AI 244):** This course focuses on the fundamentals of the Python programming language and its application in AI and Machine Learning tasks. Topics include data manipulation, analysis, visualization, and building ML models.\nThese courses aim to equip students with programming skills essential for AI applications. For more details, refer to the specific course descriptions in the curriculum.\nFeel free to ask if you have any more questions or need further information!"
+            ],
+            "context_set": ""
+        }
+    ]
+}
